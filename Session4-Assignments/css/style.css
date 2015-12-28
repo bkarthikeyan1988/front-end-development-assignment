@@ -1,0 +1,26 @@
+*{padding: 0; margin:0;}
+ul{margin: 0;padding: 0}
+li{list-style: none;margin: 0;padding: 0;}
+/* Session 4 Assignment 1 */
+	.acd-right-arrow{position: relative;background: #009fda; width: 200px; height: 100px; margin: 50px auto; color: #fff; padding: 15px; font:normal 12px/14px arial; border-radius: 15px;}
+	.acd-right-arrow:after {right: 100%;top: 50%;border: solid transparent;content: " ";height: 0;width: 0;position: absolute;pointer-events: none;border-color: rgba(136, 183, 213, 0);border-right-color: #009fda;border-width: 20px;margin-top: -20px;}
+/* Session 4 Assignment 1 Ends*/
+/* Session 4 Assignment 2 */
+	.session4-asngmnt2-main-container{width: 400px; margin:20px auto; background: #00257a; overflow: hidden;}
+	.session4-asngmnt2-main-container article{background: #009fda; margin:25px; padding: 25px; color: #fff; font:normal 14px/17px arial;}
+/* Session 4 Assignment 2 Ends */
+/* Session 4 Assignment 3 */
+	.session4-asngmnt3-main-container{background: #f5f5f5; width: 500px; margin: 20px auto; padding: 20px;}
+	.session4-asngmnt3-main-container{text-align: center;}
+	.box{background: #7ab800; width: 100px; height: 100px; display:table; vertical-align: middle; margin: 0 auto;-webkit-transition: all 2s;-ms-trasition:all 2s;transition: all 2s;}
+	.box span{display: table-cell;vertical-align: middle; font:normal 14px arial; color: #fff;}
+	.box:hover{background: #faac03; border-radius: 50%;}
+/* Session 4 Assignment 3 Ends */
+/* Session 4 Assignment 4 */
+	.session4-asngmnt4-main-container{width: 1000px; margin:0 auto;}
+	.gradient-block{display: table; border-spacing: 20px;}
+	.gradient-block li{display: table-cell;vertical-align: middle; width: 300px; height: 200px; font: normal 14px/17px arial; text-align: center;color: #333;}
+	.linear-gradient{background: red;background: -webkit-linear-gradient(red, yellow, green);background: -o-linear-gradient(red, yellow, green);background: -moz-linear-gradient(red, yellow, green);background: linear-gradient(red, yellow, green);}
+	.radial-gradient{background: red;background: -webkit-radial-gradient(red, yellow, green);background: -o-radial-gradient(red, yellow, green); background: -moz-radial-gradient(red, yellow, green);background: radial-gradient(red, yellow, green);}
+	.circular-gradient{background: red; background: -webkit-radial-gradient(circle, red, yellow, green);background: -o-radial-gradient(circle, red, yellow, green);background: -moz-radial-gradient(circle, red, yellow, green);background: radial-gradient(circle, red, yellow, green);}
+/* Session 4 Assignment 4 Ends */
