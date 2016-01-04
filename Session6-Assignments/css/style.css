@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+label,.info{font:normal 15px arial; color: #333; margin: 10px 0;}
+.min-max{width: 350px; margin: 15px auto; background: #f2f2f2; border:1px solid #ddd; padding: 15px;}
+.min-max li{margin: 10px 0;}
+.min-max li input{width: 100%; padding:8px 5px; border: 1px solid #ccc; box-sizing: border-box;}
+.min-max li label{display: block;}
+#output{margin: 15px 0; font:normal 13px arial;}
+button{background: #009fda; color: #fff; margin: 20px auto 0;width: 100px; padding: 10px; border:0; display: block; }
