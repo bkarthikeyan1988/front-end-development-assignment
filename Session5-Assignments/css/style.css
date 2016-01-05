@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+p{margin: 15px; font: bold 15px arial; }
+/* Session 5 Assignment 1 */
+    .radius-block{width:350px; background: #f2f2f2; border: 1px solid #ccc; padding: 15px; margin: 25px auto;}
+    .radius-block li { border-bottom:1px solid #eee;}
+    .radius-block li:last-child{border-bottom: 0;}
+    .radius-block li label{font:normal 15px arial; color: #333; margin: 10px 0;}
+    .radius-block li p{font: bold 15px arial; padding: 10px 0;}
+/* Session 5 Assignment 1 Ends */
