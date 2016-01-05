@@ -29,3 +29,8 @@ li{
     .max-seq-value{font: bold 13px arial; margin: 10px 0 15px; padding-bottom: 15px; border-bottom: 1px solid #e2e2e2;}
     .max-seq-value:last-child{padding-bottom: 0; border: 0;}
 /* Session 6 Assignment 3 Ends */
+/* Session 6 Assignment 4 */
+    .textContent{font:normal 14px arial; text-transform: capitalize; margin: 15px;}
+    .valid:after{content:" : Correct"; font:bold 14px arial; color:#7ab800;}
+    .invalid:after{content:" : Incorrect"; font:bold 14px arial; color:#f00;}
+/* Session 6 Assignment 4 Ends */
