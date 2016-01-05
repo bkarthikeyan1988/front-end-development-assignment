@@ -23,3 +23,9 @@ li{
 /* Session 6 Assignment 2 */
     #iteration{font:normal 13px arial; color: #333; padding: 15px;}
 /* Session 6 Assignment 2 Ends */
+/* Session 6 Assignment 3 */
+    .title{font: normal 24px arial; margin-bottom: 15px;}
+    .max-seq-container{width: 320px; margin: 25px auto; padding: 15px; box-shadow: 0 0 2px 3px rgba(0,0,0,0.2)}
+    .max-seq-value{font: bold 13px arial; margin: 10px 0 15px; padding-bottom: 15px; border-bottom: 1px solid #e2e2e2;}
+    .max-seq-value:last-child{padding-bottom: 0; border: 0;}
+/* Session 6 Assignment 3 Ends */
