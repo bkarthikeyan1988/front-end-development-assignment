@@ -1,16 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-ul{
-    padding: 0;
-    margin: 0;
-}
-li{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
+*{padding: 0;margin: 0;}
+ul{padding: 0;margin: 0;}
+li{padding: 0;margin: 0;list-style: none;}
 /* Session 6 Assignment 1*/
     label,.info{font:normal 15px arial; color: #333; margin: 10px 0;}
     .min-max{width: 350px; margin: 15px auto; background: #f2f2f2; border:1px solid #ddd; padding: 15px;}
