@@ -7,8 +7,60 @@
     <link rel="stylesheet" href="css/session8-assignment3.css" type="text/css">
 </head>
 <body>
+   Email ( with html5 email validation).
+2) Password (It should take minimum 6 charactors ).
+3) Your project URL ( with html5 url validation).
+4) Project completion date ( with html5 date validation).
+5) Current month ( with html5 month validation).
+6) Current week (with html5 week validtimation).
+7) Current time (with html5 time validation).
+8) Select color (with html5 color features).
+9) Age (with html5 range features and also show the selected age ).
+10) Your hobbies (with html5 data list ).
+And each field cannot be blank , and auto complete should be not there for email field. And autofocus should be on email field , and also provide placeholder for each possible field.
+
     <main>
-        
+        <section class="form-main-container">
+            <article>
+                <h2 class="title">HTML5 Form</h2>
+                <form id="html5Form">
+                    <ul class="html5-form">
+                        <li>
+                            <label for="email">Email:</label>
+                            <span><input id="email" type="email" placeholder="Enter the Email" required autofocus autocomplete="off" /></span>
+                        </li>
+                        <li>
+                            <label for="password">Password:</label>
+                            <span><input id="email" type="password" placeholder="Enter the Password" minlength=6 required /></span>
+                        </li>
+                        <li>
+                            <label for="url">URL:</label>
+                            <span><input id="url" placeholder="Enter the URL" required /></span>
+                        </li>
+                        <li>
+                            <label for="completion-date">Project Completion Date:</label>
+                            <span><input id="completion-date" type="date" required /></span>
+                        </li>
+                        <li>
+                            <label for="month">Current Month</label>
+                            <span><input type="month" id="month" name="month" required /></span>
+                        </li>
+                        <li>
+                            <label for="week">Current Week</label>
+                            <span><input type="week" id="week" required /></span>
+                        </li>
+                        <li>
+                            <label for="time">Current Time</label>
+                            <span><input id="time" type="time" required /></span>
+                        </li>
+                        <li><label for=""></label><span></span></li>
+                        <li><label for=""></label><span></span></li>
+                        <li><label for=""></label><span></span></li>
+                        <li><button>Submit</button></li>
+                    </ul>
+                </form>
+            </article>
+        </section>
     </main>
 </body>
 </html>
