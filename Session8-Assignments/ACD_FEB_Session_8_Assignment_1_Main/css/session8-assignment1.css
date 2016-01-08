@@ -16,7 +16,9 @@
         [type="checkbox"]:checked + label:after{opacity:1;transform:scale(1)}
     /* Custom Checkbox Ends */
 /* Table CSS Ends */
-    main{background: #eee; width: 600px; padding: 20px; margin: 30px auto;}
+    main{background: #eee; width: 600px; padding: 20px; margin: 30px auto; position: relative;box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;}
+    main:before, main:after{content:"";position:absolute; z-index:-1;box-shadow:0 0 20px rgba(0,0,0,0.8);top:0;bottom:0;left:10px;right:10px;border-radius:100px / 10px;} 
+    main:after{right:10px; left:auto; transform:skew(8deg) rotate(3deg);}
     main h2.title{font:bold 20px tahoma; color: #234465;}
 /* Main Ends */
     .desc{font-size: 12px; color: #b1a8a8; margin: 15px 0;}
