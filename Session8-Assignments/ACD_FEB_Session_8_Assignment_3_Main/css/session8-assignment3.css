@@ -16,5 +16,18 @@
         [type="checkbox"]:checked + label:after{opacity:1;transform:scale(1)}
     /* Custom Checkbox Ends */
 /* Table CSS Ends */
-
+.html5-form-body{background: #e3e2dd;}
+.form-main-container{position: relative; background: #fff; padding:20px; width:500px; margin:30px auto 0; box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3); border-radius: 2px;}
+.form-main-container:before, .form-main-container:after{z-index: -1;position: absolute;content: "";bottom: 15px;left: 10px;width: 50%;top: 80%;max-width:300px;background: #777;box-shadow: 0 15px 10px #777;transform: rotate(-3deg);}
+.form-main-container:after{transform: rotate(3deg);right: 10px;left: auto;}
+.html5-form-body .title{color: #666;margin-bottom: 25px; text-align: center}
+.html5-form li{margin-bottom: 20px;}
+.html5-form label{width: 175px; display: inline-block; vertical-align: middle}
+.html5-form span {width: 320px; display: inline-block; vertical-align: middle}
+.html5-form span .input-field{border: 1px solid #f4f7f8; padding: 7px;border-radius: 2px; width: 320px;box-shadow: 0 0 1px 2px #e38586; box-sizing: border-box}
+#range{margin-top: 2px;}
+#output{margin-left: 10px;vertical-align: top;min-width: 18px;display: inline-block}
+.html5-form li span strong{border: 1px solid #999;padding: 4px 10px 3px 10px;color: #444;}
+.html5-form button.cta-btn{display:block;float: right;text-decoration: none;border: 1px solid #3c3c3c;color: #3c3c3c;background-clip: padding-box;margin: 1rem 0;padding: 10px 20px;-webkit-transition: all0.5s ease-out;transition: all 0.5s ease-out;background: #ffffff;cursor: pointer;zoom: 1;-webkit-backface-visibility: hidden;position: relative;}
+.html5-form button.cta-btn:hover{background-color: #3c3c3c;color: #ffffff !important;}
     

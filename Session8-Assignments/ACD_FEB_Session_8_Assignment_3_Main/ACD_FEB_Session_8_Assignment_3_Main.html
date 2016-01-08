@@ -5,20 +5,10 @@
     <title>Session 8 Assignment 3</title>
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/session8-assignment3.css" type="text/css">
+    
+    <script src="js/jquery.min.js" type="text/javascript"></script>
 </head>
-<body>
-   Email ( with html5 email validation).
-2) Password (It should take minimum 6 charactors ).
-3) Your project URL ( with html5 url validation).
-4) Project completion date ( with html5 date validation).
-5) Current month ( with html5 month validation).
-6) Current week (with html5 week validtimation).
-7) Current time (with html5 time validation).
-8) Select color (with html5 color features).
-9) Age (with html5 range features and also show the selected age ).
-10) Your hobbies (with html5 data list ).
-And each field cannot be blank , and auto complete should be not there for email field. And autofocus should be on email field , and also provide placeholder for each possible field.
-
+<body class="html5-form-body">
     <main>
         <section class="form-main-container">
             <article>
@@ -27,40 +17,59 @@ And each field cannot be blank , and auto complete should be not there for email
                     <ul class="html5-form">
                         <li>
                             <label for="email">Email:</label>
-                            <span><input id="email" type="email" placeholder="Enter the Email" required autofocus autocomplete="off" /></span>
+                            <span><input id="email" class="input-field" type="email" placeholder="Enter the Email" required autofocus autocomplete="off" /></span>
                         </li>
                         <li>
                             <label for="password">Password:</label>
-                            <span><input id="email" type="password" placeholder="Enter the Password" minlength=6 required /></span>
+                            <span><input id="password" class="input-field" type="password" placeholder="Enter the Password" minlength=6 required /></span>
                         </li>
                         <li>
                             <label for="url">URL:</label>
-                            <span><input id="url" placeholder="Enter the URL" required /></span>
+                            <span><input id="url" class="input-field" type="url" placeholder="Enter the URL" required /></span>
                         </li>
                         <li>
                             <label for="completion-date">Project Completion Date:</label>
-                            <span><input id="completion-date" type="date" required /></span>
+                            <span><input id="completion-date" class="input-field" type="date" required /></span>
                         </li>
                         <li>
                             <label for="month">Current Month</label>
-                            <span><input type="month" id="month" name="month" required /></span>
+                            <span><input type="month" class="input-field" id="month" name="month" required /></span>
                         </li>
                         <li>
                             <label for="week">Current Week</label>
-                            <span><input type="week" id="week" required /></span>
+                            <span><input type="week" class="input-field" id="week" required /></span>
                         </li>
                         <li>
                             <label for="time">Current Time</label>
-                            <span><input id="time" type="time" required /></span>
+                            <span><input id="time" class="input-field" type="time" required /></span>
                         </li>
-                        <li><label for=""></label><span></span></li>
-                        <li><label for=""></label><span></span></li>
-                        <li><label for=""></label><span></span></li>
-                        <li><button>Submit</button></li>
+                        <li>
+                            <label for="colorpicker">Select Color</label>
+                            <span><input type="color" name="color" id="colorpicker" value="#008080"> <strong id="hexcolor">#008080</strong></span>
+                        </li>
+                        <li>
+                            <label for="range">Age</label>
+                            <span><input type="range" id="range" name="range" value="18" required><strong for="range" id="output"></strong></span>
+                        </li>
+                        <li>
+                            <label for="hobbies">Hobbies</label>
+                            <span>
+                                <input type="text" name="hobbiesList" placeholder="Hobbies" required id="hobbies" class="input-field" list="hobbies-list">
+                                 <datalist id="hobbies-list">
+                                    <option value="Net Surfing">
+                                    <option value="Badmiton">
+                                    <option value="Table Tennis">
+                                    <option value="Cricket">
+                                    <option value="Golf">
+                                </datalist>
+                            </span>
+                        </li>
+                        <li class="clearBlock"><button class="cta-btn" type="submit">Submit</button></li>
                     </ul>
                 </form>
             </article>
         </section>
     </main>
+    <script src="js/html5-form.js" type="text/javascript"></script>
 </body>
 </html>
