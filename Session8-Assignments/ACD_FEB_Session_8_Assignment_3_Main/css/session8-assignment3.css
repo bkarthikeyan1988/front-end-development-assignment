@@ -28,6 +28,6 @@
 #range{margin-top: 2px;}
 #output{margin-left: 10px;vertical-align: top;min-width: 18px;display: inline-block}
 .html5-form li span strong{border: 1px solid #999;padding: 4px 10px 3px 10px;color: #444;}
-.html5-form button.cta-btn{display:block;float: right;text-decoration: none;border: 1px solid #3c3c3c;color: #3c3c3c;background-clip: padding-box;margin: 1rem 0;padding: 10px 20px;-webkit-transition: all0.5s ease-out;transition: all 0.5s ease-out;background: #ffffff;cursor: pointer;zoom: 1;-webkit-backface-visibility: hidden;position: relative;}
+.html5-form button.cta-btn{display:block;float: right;text-decoration: none;border: 1px solid #3c3c3c;color: #3c3c3c;background-clip: padding-box;margin: 1rem 0;padding: 10px 20px;-webkit-transition: all 0.5s ease-out;transition: all 0.5s ease-out;background: #ffffff;cursor: pointer;zoom: 1;-webkit-backface-visibility: hidden;position: relative;}
 .html5-form button.cta-btn:hover{background-color: #3c3c3c;color: #ffffff !important;}
     
