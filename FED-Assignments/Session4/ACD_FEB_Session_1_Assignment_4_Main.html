@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FED Session 1 Assignment 4</title>
+    
+</head>
+<body>
+    
+</body>
+<script type="text/javascript">
+        Person={
+            age: 15,
+            name: "xyz",
+            city: "Tokyo"
+        };
+        (function(person){
+            function display(){
+                for(var prop in person){
+                    document.body.innerHTML += prop + " : " + person[prop] + "<br>";	
+                }
+            }
+            display();
+        })(Person);
+    </script>
+</html>
