@@ -4,5 +4,9 @@ li{padding: 0;margin: 0;list-style: none;}
 body{font:normal 14px tahoma; padding: 15px;}
 /* Assignment 1 */
 	div, h1{padding: 10px; margin-bottom: 10px}
+	.fed-session6-assingment1 p{cursor: pointer;}
 	.session5-assignment3 li{margin-bottom: 10px;}
 	.session5-assignment3 strong{padding-right: 5px;}
+	input[type="text"]{border:1px solid #666; padding: 5px;}
+	.demo_form li{margin-bottom: 15px;}
+	.demo_form li input{border:1px solid #666; padding: 5px;}
