@@ -20,9 +20,9 @@ $(document).ready(function() {
 
     // For Session 5 Assignment 3 Ends
 
-    // For Session 5 Assignment 2 Starts
+    // For Session 5 Assignment 4 Starts
 
         $("#acadgild").attr("href","http://www.google.com/").html("Google");
 
-    // For Session 5 Assignment 2 Ends
+    // For Session 5 Assignment 4 Ends
 });
