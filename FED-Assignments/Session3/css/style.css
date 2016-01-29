@@ -1,0 +1,8 @@
+*{padding: 0;margin: 0; outline:none;}
+ul{padding: 0;margin: 0;}
+li{padding: 0;margin: 0;list-style: none;}
+body{font:normal 14px tahoma; padding: 15px;}
+/* Assignment 1 */
+	div, h1{padding: 10px; margin-bottom: 10px}
+	.jscalc li{margin-top: 15px;}
+	.jscalc li input{background: #333; cursor:pointer; color: #fff; padding: 5px 10px; border:1px solid #000; margin-right: 5px;}
