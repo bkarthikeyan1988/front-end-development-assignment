@@ -2,15 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FED Session 3 Assignment 1</title>
+    <title>FED Session 4 Assignment 2</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="constructor-func">
-        <h2>Object type using car using constructor function, consists of make, model and year properties. Two objects of car and alert their properties.</h2>
-        
+        <h2>Create two constructor functions person and student. Create a property of person. Inherit the property of the function person into student. Then change the property in student function</h2>
+        <script>
+
+			function Person(){
+
+			};
+
+			Person.prototype.name = "Person1";
+			Person.prototype.getName = function(){
+		    	return this.name;
+			};
+			alert("Person Function Name: "+ Person.prototype.name);
+			function Student(){
+
+			};
+			
+			// getName from A
+			Student.prototype.getName = Person.prototype.getName;
+			
+			// new method for C
+			Student.prototype.setName = function(name){
+			    this.name = name;
+			};
+
+			var Student = new Student();
+			Student.setName("Student1");
+			var name = Student.getName();
+			alert("Changed from Student Function Name: "+ name);
+        </script>
     </div>
 </body>
-<!-- Script Block -->
-    <script src="js/constructor.js" type="text/javascript"></script>
 </html>
