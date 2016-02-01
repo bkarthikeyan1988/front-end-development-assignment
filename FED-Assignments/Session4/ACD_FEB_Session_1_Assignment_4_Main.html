@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IIFE</title>
+		<meta charset = "UTF-8">
+		
+	</head>
+	<body>
+		<script type="text/javascript">
+			Person={
+				age: 15,
+				name: "xyz",
+				city: "Tokyo"
+			};
+			(function(person){
+				function display(){
+					for(var prop in person){
+						document.body.innerHTML += prop + " : " + person[prop] + "<br>";	
+					}
+				}
+				display();
+			})(Person);
+		</script>
+	</body>
+</html>
