@@ -1,0 +1,26 @@
+*{padding: 0;margin: 0; outline:none;}
+ul{padding: 0;margin: 0;}
+li{padding: 0;margin: 0;list-style: none;}
+body{font:normal 14px tahoma;}
+/* Assignment 4 */
+
+#top-link-block.affix-top {
+    position: absolute; /* allows it to "slide" up into view */
+    bottom: -82px; /* negative of the offset - height of link element */
+    left: 10px; /* padding from the left side of the window */
+}
+#top-link-block.affix {
+    position: fixed; /* keeps it on the bottom once in view */
+    bottom: 18px; /* height of link element */
+    right: 10px; /* padding from the left side of the window */
+}
+.blog-footer {
+    padding: 20px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+.blog-footer p{color: #333; font-size: 20px;}
+.blog-footer p span{padding-right: 5px;}
+.nav>li>a.web{font-size: 24px; display: block;padding:12px 5px;}
