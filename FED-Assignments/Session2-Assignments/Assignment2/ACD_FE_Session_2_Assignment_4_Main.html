@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <title>FED Session 4 Assignment 2</title>
         <script>
-        	var mainFunc = new function outerFunction(){
-        		function innerFunction(){
-        			var innerVariable = "Inner Function Variable within Function";
-        			
-        			alert(innerVariable);
-        		}
-        	}
+        	function first() {
+			    var y = 8;
+
+			    function second() {
+			        var x = 5;
+
+			        function third() {
+			            alert(x + y)
+			        }
+			        third();
+			    };
+			    second();
+			};
+			first();  // returns 13
         </script>
 </head>
 <body>

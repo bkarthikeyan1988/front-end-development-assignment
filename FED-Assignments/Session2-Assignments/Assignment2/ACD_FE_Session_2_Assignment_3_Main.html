@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FED Session 4 Assignment 3</title>
+    <style type="text/css">
+		body{font: normal 14px arial;}
+		ul{margin:0;padding: 0; border-spacing: 10px; display: table}
+		li{list-style: none; display: table-row;}
+		li label{display: table-cell; font-weight: bold}
+		li span{vertical-align: middle; display: table-cell;}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Create an object type person which consists of first name, last name, email and phone properties. Using JavaScript append these properties to appropriate place in an html document</h2>
+		
+		<div id="demo"></div>
+
+    </div>
+    <script>
+    	var person = {
+		    firstname:"Karthikeyan",
+		    lastname:"Balasubramanian",
+		    email:"bkarthikeyan.bk@gmail.com",
+		    phone:"9741610101"
+		};
+		document.getElementById("demo").innerHTML =
+		"<ul><li><label>First Name:</label><span>" + person["firstname"] + "</span></li><li><label>Last Name:</label><span>" + person.lastname + "</span></li><li><label>Email:</label><span>" + person["email"] + "</span></li><li><label>Phone:</label><span>" + person.phone +"</span></li></ul>";
+    </script>	
+</body>
+</html>
