@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>FED Session 1 Assignment 4</title>
+	    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	   	<h1>Vehicle Form Input and Output</h1>
+		<div id="vehicle-form" class="main-form"> 
+			<h2>Vehicle Form</h2>
+			<form>
+				<ul class="vehicle-form">
+					<li>
+						<label for="veh-name">Name:</label>
+						<div class="item"><Input type="text" placeholder="Name" id="veh-name" onkeyup="vehName()"></div>
+					</li>
+					<li>
+						<label for="veh-desc">Description:</label>
+						<div class="item"><textarea placehoder="description" id="veh-desc" onkeyup="vehDesc()"></textarea></div>
+					</li>
+					<li>
+						<label for="veh-cst-per-km">Cost Per KM:</label>
+						<div class="item"><Input type="number" placeholder="Cost Per KM" id="veh-cst-per-km" onkeyup="vehCostPerKm()"></div>
+					</li>
+					<li>
+						<label for="veh-type-sel">Vehicle Type</label>
+						<div class="item">
+							<select id="veh-type-sel" onchange="vehicleSelection()">
+								<option selected="selected">Vehicle Type</option>
+								<option value="four-wheeler">4 Wheeler</option>
+								<option value="two-wheeler">2 Wheeler</option>
+							</select>
+						</div>
+					</li>
+					<li id="veh-fuel-type-list" class="veh-fuel-type-list">
+						<label for="veh-fuel-type">Fuel Type</label>
+						<div class="item">
+							<select id="veh-fuel-type-sel" onchange="vehFuelType()">
+								<option selected="selected">Vehicle Fuel Type</option>
+								<option value="petrol">Petrol</option>
+								<option value="diesel">Diesel</option>
+								<option value="cng">CNG</option>
+							</select>
+						</div>
+					</li>
+					<li>
+						<label>&nbsp;</label>
+						<div class="item btn-value"><button type="button" id="submit-form" class="veh-submit-btn" onclick="displayValue()">Submit</button></div>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div id="display-vehicle-form" class="main-form">
+			<h2>Vehicle Details</h2>
+			<ul>
+				<li>
+					<label>Name</label>
+					<div id="dsply-veh-name">Value Not Entered/Selected</div>
+				</li>
+				<li>
+					<label>Description</label>
+					<div id="dsply-veh-desc">Value Not Entered/Selected</div>
+				</li>
+				<li>
+					<label>Cost Per KM</label>
+					<div id="dsply-veh-cst-per-km">Value Not Entered/Selected</div>
+				</li>
+				<li>
+					<label>Vehicle Type</label>
+					<div id="dsply-veh-type">Value Not Entered/Selected</div>
+				</li>
+				<li id="dsply-fuel-type">
+					<label>Fuel Type</label>
+					<div id="dsply-veh-fuel-type">Value Not Entered/Selected</div>
+				</li>
+			</ul>
+			<div class="back-btn"><button type="button" id="back-btn" class="veh-back-form" onclick="displayForm()">Back</button></div>
+		</div>
+	</body>
+	<!-- Script Block -->
+	<script src="js/vehicle-info.js"></script>
+</html>

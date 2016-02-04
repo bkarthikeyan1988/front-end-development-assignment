@@ -3,6 +3,17 @@ ul{padding: 0;margin: 0;}
 li{padding: 0;margin: 0;list-style: none;}
 body{font:normal 14px tahoma; padding: 15px;}
 /* Assignment 1 */
-	div, h1{padding: 10px; margin-bottom: 10px}
-	.jscalc li{margin-top: 15px;}
-	.jscalc li input{background: #333; cursor:pointer; color: #fff; padding: 5px 10px; border:1px solid #000; margin-right: 5px;}
+	.vehicle-form li.veh-fuel-type-list,#display-vehicle-form{display: none;}
+	h1{text-align: center; font-size: 28px; font-weight: normal;}
+	h2{font-weight: normal;}
+	.vehicle-form,#display-vehicle-form ul{display: table; border-spacing: 0 15px; width: 100%; }
+	.vehicle-form li,#display-vehicle-form ul li{display: table-row;}
+	.vehicle-form li label,#display-vehicle-form ul li label{display: table-cell; vertical-align: top; padding-right: 15px;}
+	.vehicle-form li div,#display-vehicle-form ul li div{display: table-cell; vertical-align: middle;}
+	.vehicle-form li div textarea{resize:none; height: 65px;}
+	#display-vehicle-form ul li div {font-weight: bold; text-transform: capitalize;}
+	.vehicle-form li div input, .vehicle-form li div textarea, .vehicle-form li div select{border:1px solid #333; padding: 5px; width: 100%; box-sizing:border-box;}
+	.btn-value button,.veh-back-form{background: #333; color: #fff;padding: 8px 15px; border:0; cursor: pointer;}
+	.main-form{display: block;background: #f2f2f2;border: 1px solid #ccc;width: 300px;padding: 15px 20px;margin: 25px auto;box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);border-radius: 3px;}
+	.back-btn{display: block; overflow: hidden;}
+	.back-btn button{float: right;}
